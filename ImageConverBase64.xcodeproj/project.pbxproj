@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		676ED1D320F8949A001A5EE6 /* ImageConverBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 676ED1D120F8949A001A5EE6 /* ImageConverBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		676ED1DB20F894F9001A5EE6 /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 676ED1D920F894F9001A5EE6 /* Controller.h */; };
+		676ED1DB20F894F9001A5EE6 /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 676ED1D920F894F9001A5EE6 /* Controller.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		676ED1DC20F894F9001A5EE6 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 676ED1DA20F894F9001A5EE6 /* Controller.m */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +65,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676ED1DB20F894F9001A5EE6 /* Controller.h in Headers */,
 				676ED1D320F8949A001A5EE6 /* ImageConverBase64.h in Headers */,
+				676ED1DB20F894F9001A5EE6 /* Controller.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +111,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 676ED1C420F8949A001A5EE6;
 			productRefGroup = 676ED1CF20F8949A001A5EE6 /* Products */;
@@ -271,6 +272,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ImageConverBase64/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,6 +296,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ImageConverBase64/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

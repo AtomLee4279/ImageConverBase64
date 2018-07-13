@@ -7,7 +7,7 @@
 //把图片转成Base64字符串
 
 #import <UIKit/UIKit.h>
-
+#import <ImageConverBase64/Controller.h>
 //! Project version number for ImageConverBase64.
 FOUNDATION_EXPORT double ImageConverBase64VersionNumber;
 

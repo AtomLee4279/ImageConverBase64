@@ -15,4 +15,6 @@
 
 +(UIImage*)Base64ConvertToImage:(NSString*)base64String;
 
++(NSString*)getImageType:(UIImage*)image;
+
 @end
