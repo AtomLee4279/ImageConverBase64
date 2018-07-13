@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		676ED1D320F8949A001A5EE6 /* ImageConverBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 676ED1D120F8949A001A5EE6 /* ImageConverBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676ED1DB20F894F9001A5EE6 /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 676ED1D920F894F9001A5EE6 /* Controller.h */; };
+		676ED1DC20F894F9001A5EE6 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 676ED1DA20F894F9001A5EE6 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		676ED1CE20F8949A001A5EE6 /* ImageConverBase64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageConverBase64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		676ED1D120F8949A001A5EE6 /* ImageConverBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageConverBase64.h; sourceTree = "<group>"; };
 		676ED1D220F8949A001A5EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676ED1D920F894F9001A5EE6 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		676ED1DA20F894F9001A5EE6 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				676ED1D120F8949A001A5EE6 /* ImageConverBase64.h */,
 				676ED1D220F8949A001A5EE6 /* Info.plist */,
+				676ED1D920F894F9001A5EE6 /* Controller.h */,
+				676ED1DA20F894F9001A5EE6 /* Controller.m */,
 			);
 			path = ImageConverBase64;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676ED1DB20F894F9001A5EE6 /* Controller.h in Headers */,
 				676ED1D320F8949A001A5EE6 /* ImageConverBase64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676ED1DC20F894F9001A5EE6 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

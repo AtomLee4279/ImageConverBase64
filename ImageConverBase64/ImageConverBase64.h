@@ -4,7 +4,7 @@
 //
 //  Created by 李一贤 on 2018/7/13.
 //  Copyright © 2018年 李一贤. All rights reserved.
-//
+//把图片转成Base64字符串
 
 #import <UIKit/UIKit.h>
 
